@@ -40,6 +40,6 @@
 }
 .button:hover {
   background:  #1f7a8c;
-  background-image: linear-gradient(to right,#f2dfd7, #BFDBF7);
+  /* background-image: linear-gradient(to right,#f2dfd7, #BFDBF7); */
 }
 

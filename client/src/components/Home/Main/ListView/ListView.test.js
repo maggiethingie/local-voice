@@ -10,7 +10,7 @@ Enzyme.configure({ adapter: new EnzymeAdapter() });
 
 describe('testing the List View', () => {
   const wrapper = shallow(<ListView
-    user={{ user_id: 1, username: 'someguy123' }}
+    user={{ user_id: 1, username: 'guest' }}
     displayedIssues={[{ issue_id: 1 }, { issue_id: 2 }, { issue_id: 3 }]}
   />);
 

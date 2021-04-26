@@ -13,7 +13,7 @@ describe('test the left side bar', () => {
   const wrapper = shallow(<LeftSideBar
     user={{
       user_id: 1,
-      username: 'someguy123',
+      username: 'guest',
       votedList: [],
       watchedList: [4, 8, 12],
     }}

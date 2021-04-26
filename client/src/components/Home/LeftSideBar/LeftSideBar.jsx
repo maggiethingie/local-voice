@@ -26,9 +26,7 @@ const LeftSideBar = ({
           <div className={styles.welcomeBannerVerticalLayout}>
             <div className={styles.welcomeTagPadding}>
               <p className={styles.welcomeTag}>
-                Welcome,
-                {user.username}
-                !
+                Welcome, {user.username}!
               </p>
             </div>
           </div>

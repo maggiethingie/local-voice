@@ -17,7 +17,7 @@ describe('testing the Home component', () => {
   const wrapper = shallow(<Home />);
   // wrapper.setState({
   //   user: {
-  //     username: 'someguy123',
+  //     username: 'guest',
   //     user_id: 1,
   //   },
   //   location: {

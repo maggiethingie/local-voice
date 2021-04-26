@@ -1,10 +1,11 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { useAuth0 } from "@auth0/auth0-react";
 import LogOut from './LogOut.jsx';
 import Home from '../Home/Home.jsx';
 import styles from './styles.module.css';
 
-const LogIn = () => {
+const LogIn = ({ fakeLogin }) => {
   const { user, isAuthenticated, isLoading, loginWithRedirect, logOut, username } = useAuth0();
 
   return (
@@ -18,7 +19,7 @@ const LogIn = () => {
             <h5 className={styles.subheading}>
               Bringing local issues to the palm of your hand
             </h5>
-            <button type="button" onClick={() => loginWithRedirect()} className={styles.button}>
+            <button type="button" onClick={() => fakeLogin()} className={styles.button}>
               Log In
             </button>
           </div>
@@ -37,6 +38,10 @@ const LogIn = () => {
       }
     </div>
   );
+};
+
+LogIn.propTypes = {
+  fakeLogin: PropTypes.func.isRequired,
 };
 
 export default LogIn;

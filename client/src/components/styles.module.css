@@ -7,10 +7,16 @@
 
 button {
   color: black !important;
+  font-family: 'Commissioner' sans-serif;
+  border-radius: 10px;
 }
 
 button:hover {
   color: black !important;
+}
+
+button:focus {
+  outline: none;
 }
 
 

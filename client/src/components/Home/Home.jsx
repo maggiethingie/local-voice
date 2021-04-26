@@ -14,7 +14,7 @@ class Home extends React.Component {
     super(props);
     this.state = {
       user: {
-        username: 'someguy123',
+        username: 'guest',
         user_id: 1,
         watchedList: [],
       },
@@ -76,7 +76,7 @@ class Home extends React.Component {
         this.setState({
           issues: reversed,
           user: {
-            username: 'someguy123',
+            username: 'guest',
             user_id: 1,
             votedList: response.data.votedList,
           },

@@ -11,13 +11,18 @@ class App extends React.Component {
     this.state = {
       loggedIn: false,
     };
+    this.fakeLogin = this.fakeLogin.bind(this);
+  }
+
+  fakeLogin() {
+    this.setState({ loggedIn: true });
   }
 
   render() {
+    const { loggedIn } = this.state;
     return (
       <div id={styles.app}>
-        {/* <LogIn /> */}
-        <Home/>
+        { loggedIn ? <Home /> : <LogIn fakeLogin={this.fakeLogin} /> }
       </div>
     );
   }
