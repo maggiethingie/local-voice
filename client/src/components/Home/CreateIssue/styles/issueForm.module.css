@@ -1,6 +1,6 @@
 #formBackground {
   position: fixed;
-	z-index: 3;
+	z-index: 100;
 	background-color: rgba(0, 0, 0, 0.5);
 	top: 0%;
 	left: 0%;
@@ -124,11 +124,7 @@
 .repOption {
 }
 
-#formSubmit {
-  /* background-color: white;
-  border: 1px solid black; */
-  /* padding: 10px;
-  border-radius: 20px; */
+/* #formSubmit {
   cursor: pointer;
   margin-top: 15px;
   outline: none;
@@ -142,4 +138,4 @@
 
   #formSubmit:hover {
     background-color: #BFDBF7;
-  }
+  } */

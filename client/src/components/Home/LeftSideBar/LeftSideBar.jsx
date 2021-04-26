@@ -4,7 +4,7 @@ import FilterOptions from './FilterOptions/FilterOptions.jsx';
 import styles from './styles/leftBar.module.css';
 
 const LeftSideBar = ({
-  user, filterIssues, filterMyIssues, filterWatchedIssues,
+  user, filterIssues, filterMyIssues, filterWatchedIssues, location, getIssues
 }) => {
   const [myIssuesFilter, toggleMyIssues] = useState(false);
   const [watchedIssuesFilter, toggleWatchedIssues] = useState(false);
@@ -33,7 +33,6 @@ const LeftSideBar = ({
             </div>
           </div>
         </div>
-
         <div className={styles.personalFiltersContainer}>
           <div className={styles.personalFiltersVerticalLayout}>
             <div className={styles.personalFiltersPadding}>

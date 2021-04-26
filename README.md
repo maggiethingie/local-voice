@@ -26,6 +26,8 @@
 
 ## Usage
 
+### Landing Page
+
 ### Map View
 ![map][map]
 

@@ -26,7 +26,7 @@
   font-size: 18px;
   line-height: 20px;
   font-weight: 600;
-  color: #252525;
+  color: black;
   text-align: left;
 }
 
@@ -78,7 +78,7 @@
   background: #fff;
   padding: 6px 12px;
   outline: none;
-  color: #252525; */
+  color: black; */
   transition: background-color .4s,border-color .4s,color .4s,clip-path .45s,transform .4s,-webkit-clip-path .45s;
   vertical-align: baseline;
   /* font: inherit; */
@@ -128,7 +128,7 @@
   font-size: 18px;
   line-height: 18px;
   /* font-weight: 600; */
-  color: inherit;
+  color: black;
   text-align: left;
 }
 
@@ -149,7 +149,7 @@
   background: #fff;
   padding: 6px 12px;
   outline: none;
-  color: #252525; */
+  color: black; */
   transition: background-color .4s,border-color .4s,color .4s,clip-path .45s,transform .4s,-webkit-clip-path .45s;
   vertical-align: baseline;
   /* font: inherit; */
@@ -199,7 +199,7 @@
   font-size: 18px;
   line-height: 18px;
   /* font-weight: 600; */
-  color: inherit;
+  color: black;
   text-align: left;
 }
 
@@ -211,15 +211,18 @@
   position: fixed;
 }
 
-.leftSideBar button {
+/* .leftSideBar button { */
+button {
   border: 1px solid #bbbac0;
   border-radius: 10px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
   transition: background-color .2s ease-in-out;
+  color: black;
 }
 
-.leftSideBar button:hover {
-  background-color: #BFDBF7;
+/* .leftSideBar button:hover { */
+button:hover {
+  background-color: lightgrey;
 }

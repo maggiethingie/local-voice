@@ -7,28 +7,24 @@
 .issues {
   width: 75%;
 }
-.issueCard {
-  /* display: grid; */
+/* .issueCard {
   grid-template-columns: 1fr 10fr;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(30, 8, 65, 0.19);  margin: 7px;
-  border-radius: 12px;
-  padding: 20px 3px;
-  /* background-color: white; */
-  background: linear-gradient(to right, #e7f6ff, #fcfcfc, #d9effa);
+} */
+
+.issueCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 10px;
 }
 .issueCardTop {
   display: grid;
   grid-template-columns: 1fr 10fr;
 }
 /* .issueCard {
-  display: grid;
   grid-template-columns: 1fr 10fr;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(30, 8, 65, 0.19);  margin: 7px;
-  border-radius: 12px;
-  padding: 3px;
-  background-color: white;
-  background: linear-gradient(to right, #e7f6ff, #fcfcfc, #d9effa);
 } */
+
 .voteContainer {
   grid-column: 1;
   display: flex;
@@ -42,17 +38,15 @@
 }
 .vote button {
   font-size: 22px;
-  color: rgb(20, 20, 20);
+  color: black;
   background-color: transparent;
   border: none;
   border-radius: 50%;
   transition: all 0.2s ease;
 }
 .vote button:hover {
-  /* background-color: rgba(192, 192, 192, 0.363);
-   */
    background-color: transparent;
-   opacity: .7;
+   /* opacity: .7; */
   border-radius: 50%;
 }
 .vote button:focus {
@@ -62,7 +56,7 @@
   display: flex;
   justify-content: center;
   font-size: 36px;
-  color: rgb(90, 90, 90);
+  color: black;
   font-weight: 400;
 }
 .issueCardContent {
@@ -98,14 +92,13 @@
   display: flex;
   justify-content: flex-end;
   font-size: 25px;
-  color: rgb(58, 58, 58);
+  color: black;
   position: relative;
   right: 3px;
   bottom: 4px;
 }
 .dotsIcon:hover {
   cursor: pointer;
-  opacity: .7;
 }
 .dots:focus {
   outline: none;
@@ -125,7 +118,7 @@
   left: 75%;
   align-self: flex-end;
   transition: all 0.2s ease-in-out;
-  color: rgb(17, 17, 17);
+  color: black;
 }
 .modalContainer .optionsModal {
   display: flex;
@@ -137,11 +130,13 @@
   height: max-content;
   width: 120px;
   /* background-color: whitesmoke; */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin: 7px;
   border-radius: 7px;
   position: absolute;
-  background: linear-gradient(to right, #e7f6ff, #fcfcfc, #d9effa);
+  /* background: linear-gradient(to right, #e7f6ff, #fcfcfc, #d9effa); */
+  background-color: whitesmoke;
+  border: 1px solid black;
   z-index: 10;
 }
 .watchOption, .flagOption, .resolveOption {
@@ -177,7 +172,7 @@
 .watchOption:hover, .flagOption:hover, .resolveOption:hover, button:hover {
   /* background-color: rgb(231, 231, 231); */
   cursor: pointer;
-  opacity: .7;
+  /* opacity: .7; */
 }
 /*  */
 /*  */
@@ -214,7 +209,7 @@
   display: flex;
   justify-self: flex-start;
   align-items: center;
-  color: rgb(19, 19, 19);
+  color: black;
 }
 .content .text {
   margin: 5px;
@@ -223,7 +218,7 @@
   padding-top: 0;
   font-size: 20px;
   font-weight: 300;
-  color: rgb(29, 29, 29);
+  color: black;
 }
 .issueCardContent .photos {
   display: flex;
@@ -246,25 +241,7 @@
   border-top: rgb(224, 224, 224) 2px solid;
   margin: 5px;
 }
-.discussion button {
-  padding: 2px;
-  border: none;
-  border-radius: 4px;
-  border-bottom: 3px solid rgb(233, 233, 233);
-  background: linear-gradient(to right, #e2f0ff, #f7fafd, #deeeff);
-  height: 40px;
-  width: 100%;
-  font-size: 16px;
-  color: rgb(14, 14, 14);
-  transition: all 0.2s ease;
-}
-.discussion button:hover {
-  border-bottom: 3px solid rgb(94, 94, 94);
-  cursor: pointer;
-}
-.discussion button:focus {
-  outline: none;
-}
+
 .user {
   font-weight: 800;
 }
