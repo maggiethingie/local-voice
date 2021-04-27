@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/ambitious-aegean/local-voice#readme",
   "dependencies": {
-    "@auth0/auth0-react": "^1.4.0",
     "@babel/plugin-transform-modules-commonjs": "^7.13.8",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "Buffer": "0.0.0",
