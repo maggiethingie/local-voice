@@ -1,5 +1,5 @@
 .rightContainer {
-  margin-top: 55px;
+  margin-top: 5px;
   flex: 2;
 }
 
@@ -23,6 +23,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 95%;
   /* object-fit: contain; */
 }
 
