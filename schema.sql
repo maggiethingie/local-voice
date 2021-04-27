@@ -204,7 +204,7 @@ ALTER TABLE `photos` ADD FOREIGN KEY (issue_id) REFERENCES `issues` (`issue_id`)
 -- ---
 -- Loading data
 -- ---
-
+/*
 LOAD DATA LOCAL INFILE './sample_data/users.csv'
 INTO TABLE users
 FIELDS TERMINATED BY ','
@@ -246,7 +246,7 @@ INTO TABLE watched_issues
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-
+*/
 -- ---
 -- Table Properties
 -- ---

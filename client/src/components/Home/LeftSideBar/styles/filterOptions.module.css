@@ -26,15 +26,6 @@
   cursor: pointer;
 }
 
-.checkbox:checked + label {
-  color: #1F7A8C;
-}
-
-
-/* .checkbox:hover{
-  background-color: 'blue';
-} */
-
 .formContainer {
   display: flex;
   flex-direction: column;
