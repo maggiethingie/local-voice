@@ -29,17 +29,5 @@
   position: fixed;
   top: 2%;
   right: 2%;
-  background-color: #f2dfd7;
-  border: 1px solid #1f7a8c;
-  font-size: 20px;
-  margin-left: 300px;
-  padding: 15px;
-  border-radius: 7px;
-  color:  #1f7a8c;
-  transition: background-image 0.2s ease-in-out;
-}
-.button:hover {
-  background:  #1f7a8c;
-  /* background-image: linear-gradient(to right,#f2dfd7, #BFDBF7); */
 }
 

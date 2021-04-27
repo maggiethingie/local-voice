@@ -4,11 +4,13 @@
   height: 100%;
   background-color: #F5F5F5;
 }
-
+/*
 button {
   color: black !important;
   font-family: 'Commissioner' sans-serif;
   border-radius: 10px;
+  border: none;
+  background-color: #E1E5F2;
 }
 
 button:hover {
@@ -18,7 +20,35 @@ button:hover {
 button:focus {
   outline: none;
 }
+*/
 
+button {
+  background-color: #E1E5F2;
+  font-size: 20px;
+  margin-left: 300px;
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  color:  black;
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color:  #1f7a8c;
+}
+
+  /* button {
+    border: 1px solid #bbbac0;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    transition: background-color .2s ease-in-out;
+    color: black;
+  }
+
+  button:hover {
+    background-color: lightgrey;
+  } */
 
 
 

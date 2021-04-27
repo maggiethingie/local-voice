@@ -206,7 +206,7 @@ class Home extends React.Component {
     }
     return (
       <div id="homeContainer" className={styles.homeContainer}>
-        <div id="header">
+        <div id="header" className={styles.header}>
           <Header toggle={this.toggle} />
         </div>
         <div id="flexContainer" className={styles.flexContainer}>
