@@ -9,7 +9,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loggedIn: false,
+      loggedIn: true,
     };
     this.fakeLogin = this.fakeLogin.bind(this);
     this.fakeLogOut = this.fakeLogOut.bind(this);

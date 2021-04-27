@@ -6,8 +6,9 @@ import styles from './styles.module.css';
 
 const Header = ({ toggle, fakeLogOut }) => (
   <div className={styles.headerContainer}>
+    <img src="images/logo.png" className={styles.logo} />
     <div className={styles.title}>Local Voice</div>
-    <div className={styles.toggleContainer} >
+    <div className={styles.toggleContainer}>
       <span className={styles.mapViewLabel}>Map View</span>
       <label className={styles.switch}>
         <input onClick={toggle} type='checkbox'></input>

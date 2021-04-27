@@ -7,7 +7,7 @@
 }
 
 .welcomeBanner {
-  border-bottom: 1px solid #eeeeef;
+  /* border-bottom: 1px solid #eeeeef; */
   padding: 10px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .welcomeTagPadding {
-  padding-bottom: 8px;
+  /* padding-bottom: 8px; */
 }
 
 .welcomeTag {
