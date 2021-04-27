@@ -199,13 +199,13 @@ class Home extends React.Component {
       issues, user, location, initialLoad, filteredIssues, view, watched,
     } = this.state;
     const { fakeLogOut } = this.props;
-    if (!issues.length) {
-      return (
-        <div>
-          Loading
-        </div>
-      );
-    }
+    // if (!issues.length) {
+    //   return (
+    //     <div>
+    //       Loading
+    //     </div>
+    //   );
+    // }
     return (
       <div className={styles.home}>
         <div className={styles.header}>
