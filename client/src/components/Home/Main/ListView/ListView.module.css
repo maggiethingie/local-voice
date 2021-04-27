@@ -245,9 +245,18 @@
 .user {
   font-weight: 800;
 }
-button[type="button"] {
-  cursor: pointer;
+
+.discussion button {
+  border: none;
+  background-color: whitesmoke;
+  transition: background-color .2s ease-in-out;
+  font-size: 14px;
 }
+
+.discussion button:hover {
+    background-color: lightgrey;
+}
+
 .issueCardRight {
   grid-column: 3;
   display: flex;

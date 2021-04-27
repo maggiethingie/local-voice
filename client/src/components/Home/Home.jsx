@@ -205,11 +205,11 @@ class Home extends React.Component {
       );
     }
     return (
-      <div id="homeContainer" className={styles.homeContainer}>
-        <div id="header" className={styles.header}>
+      <div className={styles.home}>
+        <div className={styles.header}>
           <Header toggle={this.toggle} />
         </div>
-        <div id="flexContainer" className={styles.flexContainer}>
+        <div className={styles.leftSideBar}>
           <LeftSideBar
             user={user}
             filterIssues={this.filterIssues}
@@ -218,20 +218,24 @@ class Home extends React.Component {
             location={location}
             getIssues={this.getIssues}
           />
+        </div>
+        <div className={styles.createButton}>
           <CreateIssue
             user={user}
             location={location}
             getIssues={this.getIssues}
           />
-          <div id="mainContainer" className={styles.mainContainer}>
-            <Main
-              view={view}
-              displayedIssues={initialLoad ? issues : filteredIssues}
-              user={user}
-              location={location}
-              getLoc={this.getLoc}
-            />
-          </div>
+        </div>
+        <div className={styles.main}>
+          <Main
+            view={view}
+            displayedIssues={initialLoad ? issues : filteredIssues}
+            user={user}
+            location={location}
+            getLoc={this.getLoc}
+          />
+        </div>
+        <div className={styles.rightSideBar}>
           <RightSideBar />
         </div>
       </div>

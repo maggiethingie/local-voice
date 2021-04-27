@@ -1,12 +1,9 @@
 .createIssueContainer {
-  display: flex;
+  /* display: flex; */
 }
 
 #createIssue {
-  margin-left: -100px;
-  margin-right: 10px;
-  height: 70px;
-  width: 150px;
-  font-size: 18px;
+  /* height: 50px;
+  font-size: 18px; */
 }
 

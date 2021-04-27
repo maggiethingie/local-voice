@@ -2,7 +2,7 @@
   background-image: url(../../../../public/images/logo.png);
   background-size: auto 100%;
   background-repeat: no-repeat;
-  height: 17%;
+  height: 100%;
   margin-left: 2%;
   margin-top: 1%;
   font-family: 'Flamenco', cursive;
@@ -14,13 +14,13 @@
   font-size: 40px;
   color: black;
   margin-left: 6%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 
 .toggleContainer {
   position: fixed;
   top: 5%;
-  right: 2%;
+  right: 20%;
   font-family: 'Commissioner', sans-serif;
   display: flex;
   flex-direction: row;

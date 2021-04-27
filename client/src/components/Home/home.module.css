@@ -1,31 +1,57 @@
-.homeContainer {
-  height: 100%;
-  /* background-color: #F2DFD7; */
-  background-color: whitesmoke;
-  /* display: flex;
-  flex-direction: column; */
-}
-
-.homeContainer * {
-  /* color: black;
-  font-family: 'Commissioner', sans-serif; */
+.home {
+  display: grid;
+  grid-template: 15% 10% 75% / 13% 10% 58% 20%;
+  grid-gap: 5px;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Commissioner', sans-serif;
 }
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  max-height: 85%;
 }
 
+.leftSideBar {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+  width: 100%;
+}
+
+.createButton {
+  margin-top: 5%;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+
+.main {
+  grid-row: 2 / 4;
+  grid-column: 3 / 4;
+  height: 100%;
+}
+
+.rightSideBar {
+  grid-row: 2 / 4;
+  grid-column: 4 / 5;
+}
+
+
+
+
+/* .homeContainer {
+  height: 100%;
+  background-color: whitesmoke;
+} */
+
+/*
 .flexContainer {
   display: flex;
   flex-direction: row;
   font-family: 'Commissioner', sans-serif;
   top: 120px;
-  position: relative;
 }
 
 .mainContainer {
   flex: 6;
-}
+} */
