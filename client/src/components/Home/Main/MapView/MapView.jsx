@@ -15,7 +15,7 @@ import styles from './MapIssueModal/styles.module.css';
 // import API_TOKEN from './mapConfig.js';
 
 const mapStyles = {
-  width: '50%',
+  width: '60%',
   height: '80%',
 };
 

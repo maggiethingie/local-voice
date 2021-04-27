@@ -2,7 +2,7 @@
   width: 100%;
   height: max-content;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .issues {
   width: 60%;
