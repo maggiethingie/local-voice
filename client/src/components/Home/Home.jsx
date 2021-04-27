@@ -1,6 +1,7 @@
 /* eslint-disable camelcase */
 import React from 'react';
 import axios from 'axios';
+import PropTypes from 'prop-types';
 
 import Header from './Header/Header.jsx';
 import LeftSideBar from './LeftSideBar/LeftSideBar.jsx';
@@ -197,6 +198,7 @@ class Home extends React.Component {
     const {
       issues, user, location, initialLoad, filteredIssues, view, watched,
     } = this.state;
+    const { fakeLogOut } = this.props;
     if (!issues.length) {
       return (
         <div>
@@ -207,7 +209,7 @@ class Home extends React.Component {
     return (
       <div className={styles.home}>
         <div className={styles.header}>
-          <Header toggle={this.toggle} />
+          <Header toggle={this.toggle} fakeLogOut={fakeLogOut} />
         </div>
         <div className={styles.leftSideBar}>
           <LeftSideBar
@@ -242,5 +244,9 @@ class Home extends React.Component {
     );
   }
 }
+
+Home.propTypes = {
+  fakeLogOut: PropTypes.func.isRequired,
+};
 
 export default Home;

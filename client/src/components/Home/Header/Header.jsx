@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.module.css';
 
-const Header = ({ toggle }) => (
+const Header = ({ toggle, fakeLogOut }) => (
   <div className={styles.headerContainer}>
     <div className={styles.title}>Local Voice</div>
     <div className={styles.toggleContainer} >
@@ -15,6 +15,7 @@ const Header = ({ toggle }) => (
       </label>
       <span className={styles.listViewLabel}>List View</span>
     </div>
+    <button type="button" className={styles.logOut} onClick={fakeLogOut}>Log Out</button>
   </div>
 );
 

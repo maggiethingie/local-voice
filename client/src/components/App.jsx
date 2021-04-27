@@ -9,20 +9,25 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loggedIn: true,
+      loggedIn: false,
     };
     this.fakeLogin = this.fakeLogin.bind(this);
+    this.fakeLogOut = this.fakeLogOut.bind(this);
   }
 
   fakeLogin() {
     this.setState({ loggedIn: true });
   }
 
+  fakeLogOut() {
+    this.setState({ loggedIn: false });
+  }
+
   render() {
     const { loggedIn } = this.state;
     return (
       <div id={styles.app}>
-        { loggedIn ? <Home /> : <LogIn fakeLogin={this.fakeLogin} /> }
+        { loggedIn ? <Home fakeLogOut={this.fakeLogOut} /> : <LogIn fakeLogin={this.fakeLogin} /> }
       </div>
     );
   }
