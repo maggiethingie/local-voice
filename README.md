@@ -17,7 +17,7 @@
 3. install dependencies by running npm install
 4. npm run webpack
 5. npm start
-6. experience the app at https://localhost:3000
+6. experience the app at https://localhost:80
 
 ## Technologies Used
 - Front End: ES6, React, CSS, Google Maps API, PropTypes, Babel, Webpack
