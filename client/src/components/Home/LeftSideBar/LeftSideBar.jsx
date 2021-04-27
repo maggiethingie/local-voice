@@ -22,14 +22,11 @@ const LeftSideBar = ({
   return (
     <div id="LeftSideBar" className={styles.leftSideBar}>
       <div className={styles.allFilters}>
-        <div className={styles.welcomeBanner}>
-          <div className={styles.welcomeBannerVerticalLayout}>
-            <div className={styles.welcomeTagPadding}>
-              <p className={styles.welcomeTag}>
-                Welcome, {user.username}!
-              </p>
-            </div>
-          </div>
+        <div className={styles.welcomeTag}>
+          Welcome,
+          {' '}
+          {user.username}
+          !
         </div>
         <div className={styles.personalFiltersContainer}>
           <div className={styles.personalFiltersVerticalLayout}>

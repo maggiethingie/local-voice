@@ -1,6 +1,6 @@
 .home {
   display: grid;
-  grid-template: 15% 10% 75% / 13% 10% 63% 15%;
+  grid-template: 15% 5% 80% / 20% 65% 15%;
   grid-gap: 5px;
   height: 100vh;
   width: 100vw;
@@ -15,26 +15,26 @@
 }
 
 .leftSideBar {
-  grid-row: 2 / 4;
+  grid-row: 3 / 4;
   grid-column: 1 / 2;
   width: 100%;
 }
 
 .createButton {
-  margin-top: 5%;
+  margin-left: 10px;
   grid-row: 2 / 3;
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
 }
 
 .main {
   grid-row: 2 / 4;
-  grid-column: 3 / 4;
+  grid-column: 2 / 3;
   height: 100%;
 }
 
 .rightSideBar {
   grid-row: 2 / 4;
-  grid-column: 4 / 5;
+  grid-column: 3 / 4;
 }
 
 

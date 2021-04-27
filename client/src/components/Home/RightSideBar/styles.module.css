@@ -4,8 +4,8 @@
 }
 
 .adBanner {
-  border-bottom: 1px solid #eeeeef;
-  padding: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
 }
 
 .adBannerVerticalLayout {
@@ -16,7 +16,7 @@
 }
 
 .adBannerPadding {
-  padding-bottom: 8px;
+
 }
 
 .adImage {
