@@ -204,14 +204,14 @@ ALTER TABLE `photos` ADD FOREIGN KEY (issue_id) REFERENCES `issues` (`issue_id`)
 -- ---
 -- Loading data
 -- ---
-
-LOAD DATA INFILE './sample_data/users.csv'
+/*
+LOAD DATA LOCAL INFILE '/home/ubuntu/local-voice/sample_data/users.csv'
 INTO TABLE users
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r'
 IGNORE 1 ROWS;
 
-LOAD DATA INFILE './sample_data/issues.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/local-voice/sample_data/issues.csv'
 INTO TABLE issues
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
@@ -246,7 +246,7 @@ INTO TABLE watched_issues
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
-
+*/
 -- ---
 -- Table Properties
 -- ---
