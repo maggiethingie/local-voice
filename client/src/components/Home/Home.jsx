@@ -20,8 +20,8 @@ class Home extends React.Component {
         watchedList: [],
       },
       location: {
-        lat: 37.7749,
-        lng: -122.4194,
+        lat: 37.828,
+        lng: -122.261,
       },
       issues: [
         {

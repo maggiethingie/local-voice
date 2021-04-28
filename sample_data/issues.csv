@@ -1,12 +1,10 @@
 issue_id ,user_id ,title,text,lat ,lng ,rep_name,rep_email,rep_photo_url ,resolved ,date,up_vote ,flag_count
-1,1,pothole,there is a pothole,37.756,-122.421,,,,0,March 2\, 2021,4,0
-2,1,street light out,the street light is out by my house,37.756073,122.4915,,,,0,March 4\, 2021,10,0
-3,2,car break-in,my car was broken into,37.784211,-122.4308,,,,0,March 7\, 2021,5,0
-4,2,graffiti,someone graffitied on my wall,37.780704,-122.442,,,,0,March 10\, 2021,3,0
-5,3,driving too fast,people are driving too fast on my street,37.749051,-122.414,,,,0,March 11\, 2021,0,0
-6,3,trashcan,the public trashcan is broken,37.764077,-122.4543,,,,0,March 13\, 2021,0,0
-7,4,running stop,people are running the stop sign by my house,37.760329,-122.5014,,,,0,March 17\, 2021,0,0
-8,4,dog poop,people aren't picking up after their dogs at the park,37.76435,-122.3996,,,,0,March 21\, 2021,1,0
-9,1,broken waterfountain,the waterfountain is broken at the park,37.796702,-122.4098,,,,0,March 26\, 2021,0,0
-10,2,swere blocked up,the sewer drain backs up when it rains,37.737348,-122.4607,,,,0,March 27\, 2021,1,0
-11,4,stolen packages,my neighbor's and i have had a few packages taken,37.778135,-122.48712,,,,0,March 31\, 2021,2,0
+1,5,pothole,There is a pretty large pothole on our block which needs to be taken care of!,37.828,-122.261,,,,0,March 2\, 2021,4,0
+2,4,street light out,The street light is out by my house,37.7967,-122.2592,,,,0,March 4\, 2021,10,0
+3,2,car break-ins,There have been a lot of break-ins recently. Perhaps we could use more streetlamps?,37.796703,-122.2593,,,,0,March 7\, 2021,5,0
+4,2,graffiti,There is a lot of graffiti by the underpass recently. Can someone from the city come and wash it off?,37.79671,-122.25934,,,,0,March 10\, 2021,3,0
+5,3,litter,There has been a large amount of litter all over the neighborhood lately.,37.7967018,-122.2612,,,,0,March 11\, 2021,0,0
+6,3,trashcan,The public trashcan on this corner has been stolen and needs to be replaced.,37.796705,-122.2599,,,,0,March 13\, 2021,0,0
+7,4,running stop,The stop sign by my house is hidden by a tree causing people to run the stop sign. This is a safety hazard - please fix!,37.829,-122.266,,,,0,March 17\, 2021,0,0
+8,5,broken water fountain at the park,The water fountain at our local park has broken for quite some time. Can the city repair please?,37.796702,-122.259,,,,0,March 26\, 2021,0,0
+

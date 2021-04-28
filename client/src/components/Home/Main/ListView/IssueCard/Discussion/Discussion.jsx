@@ -10,7 +10,7 @@ const Discussion = ({ discussionData, issue, user, onClick }) => (
     <div id="comments">
       <div className={css.commentCardList}>
         {discussionData.map((comment) => (
-          <CommentCard key={comment.comment_id} comment={comment} user={user} />
+          <CommentCard key={comment.comment_id} comment={comment} user={['bobO', 'davidC', 'jillT', 'sarahS'][Math.floor(Math.random()*4)]} />
         ))}
       </div>
       <AddComment issue={issue} user={user} onClick={onClick} />
