@@ -8,3 +8,18 @@ comment_id,issue_id,text,user_id,date
 7,7,Yes! Thank you. This is so dangerous.,5,2021/03/18
 8,8,This has been such a bummer - I agree. Thanks for bringing attention to this!,4,2021/03/19
 
+insert into comments (comment_id, issue_id, text, user_id, date) values (1,1,"I totally agree - this needs to be fixed ASAP. Thanks for bringing it up!",4,"March 12, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (2,2,"I noticed this too. I would definitely feel safer if it got fixed!",3,"March 13, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (3,3,"I know! This is really a problem.",5,"March 14, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (4,4,"For real. Thanks for bringing this up - It's definitely been an issue.",5,"March 15, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (5,5,"Thank you! I would love if this would get addressed by the city soon.",2,"March 16, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (6,6,"I saw this too. Definitely hope it gets fixed soon!",2,"March 17, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (7,7,"Yes! Thank you. This is so dangerous.",5,"March 18, 2021");
+
+insert into comments (comment_id, issue_id, text, user_id, date) values (8,8,"This has been such a bummer - I agree. Thanks for bringing attention to this!",4,"March 19, 2021");
